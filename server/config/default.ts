@@ -26,4 +26,7 @@ WeigleiFFBl85kvoMwZp2A4Z8EakMgX7fp0vCwYqgLLAsat0vHzJ3fiMd0g3T8Yg
 svPkdjt/qEIocryChqsCQGnInFDk9fC5C8G1Ez2N/p0WztoPDNKfYVDGZ8IRMjEy
 rPeH03CIhIoh6QPPg02GKC3VumQxgwOe2wkQ2OgHYLE=
 -----END RSA PRIVATE KEY-----`,
+  googleClientId: process.env.GOOGLE_CLIENT_ID,
+  googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
+  googleOauthRedirectUrl: process.env.GOOGLE_OAUTH_REDIRECT_URL,
 };

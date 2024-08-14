@@ -5,12 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^2.8.2",
     "axios": "^0.23.0",
+    "cross-env": "^7.0.3",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
